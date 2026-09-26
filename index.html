@@ -12,6 +12,10 @@
 <meta property="og:description" content="RavenArc is an independent publication on strategy and consequential decisions, written for chief executives, boards and senior leaders.">
 <meta property="og:image" content="https://ravenarcgroup.com/images/social-share.png">
 <meta name="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="RavenArc">
+<meta name="theme-color" content="#0f1626">
+<link rel="alternate" type="application/rss+xml" title="RavenArc" href="/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://ravenarcgroup.com/#org", "name": "RavenArc", "url": "https://ravenarcgroup.com/", "logo": "https://ravenarcgroup.com/images/logo.png", "sameAs": ["https://www.linkedin.com/company/ravenarc/"]}, {"@type": "WebSite", "@id": "https://ravenarcgroup.com/#website", "name": "RavenArc", "url": "https://ravenarcgroup.com/", "description": "An independent publication on strategy and consequential decisions for chief executives, boards and senior leaders.", "publisher": {"@id": "https://ravenarcgroup.com/#org"}, "inLanguage": "en"}]}</script>
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,10 +85,33 @@
       <div><div class="eyebrow">LATEST</div><h2>Thinking for the year ahead</h2></div>
       <div class="filters" id="filters" role="tablist"></div>
     </div>
-    <div class="articles" id="articles"></div>
+    <div class="articles" id="articles">
+      <a href="perspectives/cost-of-the-decision-you-havent-made.html" class="article" data-topic="Strategy">
+        <div class="media" style="background-image:url('images/article-1.jpg')"></div>
+        <div class="article-meta"><span>STRATEGY</span><span>ESSAY</span></div>
+        <h3 class="article-title">The cost of the decision you haven’t made</h3>
+        <p class="article-dek">Postponed choices are the largest unmeasured line item on most balance sheets.</p>
+      </a>
+      <a href="perspectives/ai-is-an-operating-model-question-first.html" class="article" data-topic="AI &amp; Operating Model">
+        <div class="media" style="background-image:url('images/article-2.jpg')"></div>
+        <div class="article-meta"><span>AI &AMP; OPERATING MODEL</span><span>BRIEFING</span></div>
+        <h3 class="article-title">AI is an operating-model question first</h3>
+        <p class="article-dek">Why the winners are redesigning decision rights before they deploy models.</p>
+      </a>
+      <a href="perspectives/five-questions-before-approving-a-transformation.html" class="article" data-topic="Boardroom">
+        <div class="media" style="background-image:url('images/article-3.jpg')"></div>
+        <div class="article-meta"><span>BOARDROOM</span><span>GUIDE</span></div>
+        <h3 class="article-title">Five questions before approving a transformation</h3>
+        <p class="article-dek">A short diagnostic for directors facing a multi-year change programme.</p>
+      </a>
+    </div>
     <div class="coming" id="coming">
       <div class="kicker bronze">COMING NEXT</div>
-      <ul class="coming-list" id="comingList"></ul>
+      <ul class="coming-list" id="comingList">
+        <li><span class="kicker">GROWTH · RESEARCH</span><span class="coming-title">Where mid-market growth will come from next</span><span class="article-dek">Adjacencies, pricing power and the quiet advantage of focus.</span></li>
+        <li><span class="kicker">STRATEGY · ESSAY</span><span class="coming-title">Scenario planning that leaders actually use</span><span class="article-dek">Fewer scenarios, sharper signposts, and pre-agreed triggers for action.</span></li>
+        <li><span class="kicker">AI &AMP; OPERATING MODEL · CASE NOTE</span><span class="coming-title">From pilots to profit in eighteen months</span><span class="article-dek">What separates the few AI programmes that reach the P&amp;L.</span></li>
+      </ul>
     </div>
   </div>
 </section>
@@ -128,8 +155,28 @@
   <div class="container contact-body">
     <img src="images/symbol.png" alt="" width="56" height="56">
     <h2>What decision should we write about next?</h2>
-    <p class="lead">Suggestions, responses and disagreements are all welcome.</p>
-    <a href="mailto:partners@ravenarcgroup.com" class="btn btn-gold btn-lg">Write to us</a>
+    <p class="lead">Suggestions, responses and disagreements are all welcome. Write to us below and we will read every message.</p>
+    <form class="contact-form" name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="company">
+      <input type="hidden" name="form-name" value="contact">
+      <p class="hp" aria-hidden="true"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+      <div class="form-row">
+        <label>Name<input type="text" name="name" autocomplete="name" required></label>
+        <label>Email<input type="email" name="email" autocomplete="email" required></label>
+      </div>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <button type="submit" class="btn btn-gold btn-lg">Send message</button>
+    </form>
+    <p class="form-alt">Prefer email? <a href="mailto:partners@ravenarcgroup.com">partners@ravenarcgroup.com</a></p>
+    <div class="follow">
+      <span class="kicker">FOLLOW RAVENARC</span>
+      <div class="follow-links">
+        <a href="https://www.linkedin.com/company/ravenarc/" target="_blank" rel="noopener me">LinkedIn</a>
+        <span class="soon" title="Coming soon">X</span>
+        <span class="soon" title="Coming soon">Instagram</span>
+        <span class="soon" title="Coming soon">Facebook</span>
+        <span class="soon" title="Coming soon">YouTube</span>
+      </div>
+    </div>
     <div class="tagline">See further. Decide better.</div>
   </div>
 </section>
@@ -143,8 +190,8 @@
         <span class="kicker">STRATEGY · DECISIONS · LEADERSHIP</span>
       </div>
       <div class="footer-col"><span class="kicker gold">READ</span><a href="#latest">Latest</a><a href="#topics">Topics</a><a href="#coming">Coming next</a></div>
-      <div class="footer-col"><span class="kicker gold">RAVENARC</span><a href="#about">About</a><a href="#contact">Write to us</a></div>
-      <div class="footer-col"><span class="kicker gold">CONTACT</span><a href="mailto:partners@ravenarcgroup.com">partners@ravenarcgroup.com</a><a href="https://www.linkedin.com/company/ravenarc/" target="_blank" rel="noopener">LinkedIn</a></div>
+      <div class="footer-col"><span class="kicker gold">RAVENARC</span><a href="#about">About</a><a href="#contact">Write to us</a><a href="mailto:partners@ravenarcgroup.com">partners@ravenarcgroup.com</a></div>
+      <div class="footer-col"><span class="kicker gold">FOLLOW</span><a href="https://www.linkedin.com/company/ravenarc/" target="_blank" rel="noopener me">LinkedIn</a><span class="soon">X · Instagram · Facebook · YouTube (soon)</span></div>
     </div>
     <div class="footer-base"><span>© <span id="year">2026</span> RavenArc. All rights reserved.</span><span class="footer-legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></span></div>
   </div>

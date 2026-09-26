@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>RavenArc</title>
+  <link>https://ravenarcgroup.com/</link>
+  <atom:link href="https://ravenarcgroup.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>An independent publication on strategy and consequential decisions for chief executives, boards and senior leaders.</description>
+  <language>en</language>
+  <item>
+    <title>The cost of the decision you haven’t made</title>
+    <link>https://ravenarcgroup.com/perspectives/cost-of-the-decision-you-havent-made.html</link>
+    <guid>https://ravenarcgroup.com/perspectives/cost-of-the-decision-you-havent-made.html</guid>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    <description>Postponed choices are the largest unmeasured line item on most balance sheets.</description>
+  </item>
+  <item>
+    <title>AI is an operating-model question first</title>
+    <link>https://ravenarcgroup.com/perspectives/ai-is-an-operating-model-question-first.html</link>
+    <guid>https://ravenarcgroup.com/perspectives/ai-is-an-operating-model-question-first.html</guid>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    <description>Why the winners are redesigning decision rights before they deploy models.</description>
+  </item>
+  <item>
+    <title>Five questions before approving a transformation</title>
+    <link>https://ravenarcgroup.com/perspectives/five-questions-before-approving-a-transformation.html</link>
+    <guid>https://ravenarcgroup.com/perspectives/five-questions-before-approving-a-transformation.html</guid>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+    <description>A short diagnostic for directors facing a multi-year change programme.</description>
+  </item>
+</channel>
+</rss>

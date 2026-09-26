@@ -18,32 +18,15 @@
     menuBtn.setAttribute('aria-expanded', 'false');
   }));
 
-  // Articles — edit this list to publish new pieces.
-  // Put images in /images and set "image" to the file name.
-  // Add url: 'perspectives/name.html' once an article page exists; until then it shows under Coming next.
-  const ARTICLES = [
-    { topic: 'Strategy', type: 'Essay', title: 'The cost of the decision you haven\u2019t made', dek: 'Postponed choices are the largest unmeasured line item on most balance sheets.', url: 'perspectives/cost-of-the-decision-you-havent-made.html', image: 'article-1.jpg' },
-    { topic: 'AI & Operating Model', type: 'Briefing', title: 'AI is an operating-model question first', dek: 'Why the winners are redesigning decision rights before they deploy models.', url: 'perspectives/ai-is-an-operating-model-question-first.html', image: 'article-2.jpg' },
-    { topic: 'Boardroom', type: 'Guide', title: 'Five questions before approving a transformation', dek: 'A short diagnostic for directors facing a multi-year change programme.', url: 'perspectives/five-questions-before-approving-a-transformation.html', image: 'article-3.jpg' },
-    { topic: 'Growth', type: 'Research', title: 'Where mid-market growth will come from next', dek: 'Adjacencies, pricing power and the quiet advantage of focus.', image: 'article-4.jpg' },
-    { topic: 'Strategy', type: 'Essay', title: 'Scenario planning that leaders actually use', dek: 'Fewer scenarios, sharper signposts, and pre-agreed triggers for action.', image: 'article-5.jpg' },
-    { topic: 'AI & Operating Model', type: 'Case note', title: 'From pilots to profit in eighteen months', dek: 'What separates the few AI programmes that reach the P&L.', image: 'article-6.jpg' }
-  ];
-  const published = ARTICLES.filter(a => a.url);
-  const TOPICS = ['All', ...new Set(published.map(a => a.topic))];
+  // Latest: article cards are plain HTML in index.html (so search engines see them);
+  // the topic filters are built from each card's data-topic.
   const filtersEl = document.getElementById('filters');
-  const articlesEl = document.getElementById('articles');
+  const cards = [...document.querySelectorAll('#articles .article')];
+  const TOPICS = ['All', ...new Set(cards.map(c => c.dataset.topic))];
   let topic = 'All';
 
   function renderArticles() {
-    const list = topic === 'All' ? published : published.filter(a => a.topic === topic);
-    articlesEl.innerHTML = list.map((a, i) => `
-      <a href="${a.url}" class="article" style="animation-delay:${i * 80}ms">
-        <div class="media" style="background-image:url('images/${a.image}')"></div>
-        <div class="article-meta"><span>${a.topic.toUpperCase()}</span><span>${a.type.toUpperCase()}</span></div>
-        <div class="article-title">${a.title}</div>
-        <div class="article-dek">${a.dek}</div>
-      </a>`).join('');
+    cards.forEach(c => { c.hidden = topic !== 'All' && c.dataset.topic !== topic; });
     filtersEl.querySelectorAll('.filter').forEach(b => b.classList.toggle('active', b.dataset.topic === topic));
   }
   filtersEl.innerHTML = TOPICS.map(t => `<button class="filter" role="tab" data-topic="${t}">${t}</button>`).join('');
@@ -54,10 +37,6 @@
     renderArticles();
   });
   renderArticles();
-
-  // Articles without a url are listed as forthcoming.
-  document.getElementById('comingList').innerHTML = ARTICLES.filter(a => !a.url).map(a => `
-    <li><span class="kicker">${a.topic.toUpperCase()} · ${a.type.toUpperCase()}</span><span class="coming-title">${a.title}</span><span class="article-dek">${a.dek}</span></li>`).join('');
 
   // Topics we cover
   const CAPS = [
