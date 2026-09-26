@@ -1,15 +1,11 @@
 RavenArc website images
 =======================
 
-Included:
-  logo.png          Horizontal logo, for dark backgrounds
-  logo-light.png    Horizontal logo, for light backgrounds
-  symbol.png        Wing-arc symbol (dark background version)
-  favicon.png       Browser tab icon
-  social-share.png  Image shown when the site is shared on LinkedIn and other networks
+  logo.png / logo-light.png   Horizontal logo (dark / light backgrounds)
+  symbol.png                  Wing-arc symbol
+  favicon.png                 Browser tab icon
+  social-share.png            Default image when the home page is shared
+  covers/*.svg                Article cover art (4:3), used on cards, the hero and article pages
+  share/*.png                 1200x630 LinkedIn/X share image for each article
 
-Add your own photos using exactly these file names. Until you do, the site shows neutral stone-coloured blocks in their place.
-  article-1.jpg … article-6.jpg   Perspectives images (4:3 landscape, about 1200×900)
-  partner-1.jpg … partner-4.jpg   Partner portraits (4:5 portrait, about 800×1000)
-
-Tip: muted, editorial black-and-white or low-saturation photography suits the brand best.
+New articles need a cover in covers/ and a share image in share/ named after the article's file name.
