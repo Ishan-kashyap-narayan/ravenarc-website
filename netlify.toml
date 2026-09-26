@@ -11,3 +11,75 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Short URLs. Pages live at /insights/<name>.html but are linked as /insights/<name>;
+# these rewrites serve the .html file for the clean address (status 200 keeps the URL).
+[[redirects]]
+  from = "/insights/:name"
+  to = "/insights/:name.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+
+[[redirects]]
+  from = "/thanks"
+  to = "/thanks.html"
+  status = 200
+
+# Old long article addresses (live until 2026-09-26) redirect permanently to the short ones.
+[[redirects]]
+  from = "/perspectives/cost-of-the-decision-you-havent-made.html"
+  to = "/insights/cost-of-delay"
+  status = 301
+[[redirects]]
+  from = "/perspectives/ai-is-an-operating-model-question-first.html"
+  to = "/insights/ai-operating-model"
+  status = 301
+[[redirects]]
+  from = "/perspectives/five-questions-before-approving-a-transformation.html"
+  to = "/insights/transformation-questions"
+  status = 301
+[[redirects]]
+  from = "/perspectives/how-to-write-a-business-strategy.html"
+  to = "/insights/business-strategy"
+  status = 301
+[[redirects]]
+  from = "/perspectives/scenario-planning-that-leaders-actually-use.html"
+  to = "/insights/scenario-planning"
+  status = 301
+[[redirects]]
+  from = "/perspectives/how-to-measure-marketing-roi.html"
+  to = "/insights/marketing-roi"
+  status = 301
+[[redirects]]
+  from = "/perspectives/ai-strategy-a-practical-guide-for-ceos.html"
+  to = "/insights/ai-strategy"
+  status = 301
+[[redirects]]
+  from = "/perspectives/why-most-mergers-fail-to-create-value.html"
+  to = "/insights/why-mergers-fail"
+  status = 301
+[[redirects]]
+  from = "/perspectives/supply-chain-resilience-without-sacrificing-margin.html"
+  to = "/insights/supply-chain-resilience"
+  status = 301
+[[redirects]]
+  from = "/perspectives/okrs-vs-kpis.html"
+  to = "/insights/okrs-vs-kpis"
+  status = 301
+[[redirects]]
+  from = "/perspectives/what-is-an-operating-model.html"
+  to = "/insights/operating-model"
+  status = 301
+[[redirects]]
+  from = "/perspectives/*"
+  to = "/#latest"
+  status = 301

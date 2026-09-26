@@ -7,79 +7,97 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/privacy.html</loc>
+    <loc>https://ravenarcgroup.com/privacy</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/terms.html</loc>
+    <loc>https://ravenarcgroup.com/terms</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/cost-of-the-decision-you-havent-made.html</loc>
+    <loc>https://ravenarcgroup.com/insights/cost-of-delay</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/ai-is-an-operating-model-question-first.html</loc>
+    <loc>https://ravenarcgroup.com/insights/ai-operating-model</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/five-questions-before-approving-a-transformation.html</loc>
+    <loc>https://ravenarcgroup.com/insights/transformation-questions</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/how-to-write-a-business-strategy.html</loc>
+    <loc>https://ravenarcgroup.com/insights/business-strategy</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/scenario-planning-that-leaders-actually-use.html</loc>
+    <loc>https://ravenarcgroup.com/insights/scenario-planning</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/how-to-measure-marketing-roi.html</loc>
+    <loc>https://ravenarcgroup.com/insights/marketing-roi</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/ai-strategy-a-practical-guide-for-ceos.html</loc>
+    <loc>https://ravenarcgroup.com/insights/ai-strategy</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/why-most-mergers-fail-to-create-value.html</loc>
+    <loc>https://ravenarcgroup.com/insights/why-mergers-fail</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/supply-chain-resilience-without-sacrificing-margin.html</loc>
+    <loc>https://ravenarcgroup.com/insights/supply-chain-resilience</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/okrs-vs-kpis.html</loc>
+    <loc>https://ravenarcgroup.com/insights/okrs-vs-kpis</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/perspectives/what-is-an-operating-model.html</loc>
+    <loc>https://ravenarcgroup.com/insights/operating-model</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ravenarcgroup.com/insights/sports-front-office</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ravenarcgroup.com/insights/ipl-auction-strategy</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ravenarcgroup.com/insights/ipl-franchise-value</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>

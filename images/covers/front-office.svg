@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: an oval playing field seen from above, with gold lines converging on a single decision point</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<ellipse cx="600" cy="450" rx="420" ry="300" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="3"/>
+<ellipse cx="600" cy="450" rx="300" ry="210" fill="none" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2" stroke-dasharray="6 10"/>
+<rect x="585" y="390" width="30" height="120" fill="#cdb88f" fill-opacity=".85"/>
+<g stroke="#cdb88f" stroke-opacity=".55" stroke-width="2"><path d="M600 450 L260 250"/><path d="M600 450 L940 250"/><path d="M600 450 L250 640"/><path d="M600 450 L950 650"/><path d="M600 450 L600 150"/></g>
+<g fill="#cdb88f"><circle cx="260" cy="250" r="9"/><circle cx="940" cy="250" r="9"/><circle cx="250" cy="640" r="9"/><circle cx="950" cy="650" r="9"/><circle cx="600" cy="150" r="9"/></g>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>

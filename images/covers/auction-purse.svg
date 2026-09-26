@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: a single capped bar divided into allocations, with one segment highlighted in gold</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<rect x="200" y="380" width="800" height="140" fill="none" stroke="#8d95a6" stroke-opacity=".6" stroke-width="3"/>
+<rect x="210" y="390" width="250" height="120" fill="#cdb88f" fill-opacity=".9"/>
+<rect x="470" y="390" width="170" height="120" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<rect x="650" y="390" width="130" height="120" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<rect x="790" y="390" width="90" height="120" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<rect x="890" y="390" width="100" height="120" fill="none" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2" stroke-dasharray="6 8"/>
+<path d="M1000 330 L1000 570" stroke="#cdb88f" stroke-width="3"/>
+<g fill="none" stroke="#cdb88f" stroke-opacity=".35" stroke-width="2"><path d="M335 380 Q335 250 520 220"/><path d="M555 380 Q555 280 700 250"/></g>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>

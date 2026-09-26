@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: three stacked pillars under a rising gold arc</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<rect x="320" y="420" width="140" height="300" fill="#cdb88f" fill-opacity=".9"/>
+<rect x="530" y="340" width="140" height="380" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="3"/>
+<rect x="740" y="260" width="140" height="460" fill="#1a2336" fill-opacity=".6" stroke="#8d95a6" stroke-opacity=".45" stroke-width="2" stroke-dasharray="8 8"/>
+<path d="M240 720 L960 720" stroke="#8d95a6" stroke-opacity=".6" stroke-width="3"/>
+<path d="M220 400 Q600 120 980 170" fill="none" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="980" cy="170" r="10" fill="#cdb88f"/>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>
