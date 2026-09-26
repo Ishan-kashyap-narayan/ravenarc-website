@@ -22,9 +22,9 @@
   // Put images in /images and set "image" to the file name.
   // Add url: 'articles/name.html' once an article page exists; without it the card is not a link.
   const ARTICLES = [
-    { topic: 'Strategy', type: 'Essay', title: 'The cost of the decision you haven\u2019t made', dek: 'Postponed choices are the largest unmeasured line item on most balance sheets.', image: 'article-1.jpg' },
-    { topic: 'AI & Operating Model', type: 'Briefing', title: 'AI is an operating-model question first', dek: 'Why the winners are redesigning decision rights before they deploy models.', image: 'article-2.jpg' },
-    { topic: 'Boardroom', type: 'Guide', title: 'Five questions before approving a transformation', dek: 'A short diagnostic for directors facing a multi-year change programme.', image: 'article-3.jpg' },
+    { topic: 'Strategy', type: 'Essay', title: 'The cost of the decision you haven\u2019t made', dek: 'Postponed choices are the largest unmeasured line item on most balance sheets.', url: 'perspectives/cost-of-the-decision-you-havent-made.html', image: 'article-1.jpg' },
+    { topic: 'AI & Operating Model', type: 'Briefing', title: 'AI is an operating-model question first', dek: 'Why the winners are redesigning decision rights before they deploy models.', url: 'perspectives/ai-is-an-operating-model-question-first.html', image: 'article-2.jpg' },
+    { topic: 'Boardroom', type: 'Guide', title: 'Five questions before approving a transformation', dek: 'A short diagnostic for directors facing a multi-year change programme.', url: 'perspectives/five-questions-before-approving-a-transformation.html', image: 'article-3.jpg' },
     { topic: 'Growth', type: 'Research', title: 'Where mid-market growth will come from next', dek: 'Adjacencies, pricing power and the quiet advantage of focus.', image: 'article-4.jpg' },
     { topic: 'Strategy', type: 'Essay', title: 'Scenario planning that leaders actually use', dek: 'Fewer scenarios, sharper signposts, and pre-agreed triggers for action.', image: 'article-5.jpg' },
     { topic: 'AI & Operating Model', type: 'Case note', title: 'From pilots to profit in eighteen months', dek: 'What separates the few AI programmes that reach the P&L.', image: 'article-6.jpg' }
