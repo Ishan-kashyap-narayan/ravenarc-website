@@ -1,10 +1,13 @@
 RavenArc website images
 =======================
 
-  logo.png / logo-light.png   Horizontal logo (dark / light backgrounds)
-  symbol.png                  Wing-arc symbol
-  favicon.png                 Browser tab icon
-  social-share.png            Default image when the home page is shared
+  brand/lockup-ivory.png      Official horizontal lockup for dark backgrounds (header, footers, share images)
+  brand/lockup-ink.png        Same lockup for light backgrounds
+  brand/logo-512.png          Square logo for search engines (structured data)
+  brand/favicon-32.png, /favicon.ico, brand/apple-touch-icon.png, brand/icon-192/512.png  Browser and app icons
+  social-share.png            Default share image (1200x630, from the official midnight cover)
+  logo.png, logo-light.png, symbol.png, favicon.png   Original full-size files, kept for reference
+All brand files come from the RavenArc logo pack; regenerate from the pack rather than editing them.
   covers/*.svg                Article cover art (4:3), used on cards, the hero and article pages
   share/*.png                 1200x630 LinkedIn/X share image for each article
 
