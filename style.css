@@ -246,6 +246,11 @@ img.media { width: 100%; height: auto; object-fit: cover; }
 @media (max-width: 1099px) { .hero-art { display: none; } }
 @media (min-width: 1100px) { .hero .hero-body h1, .hero .hero-body .lead { max-width: min(760px, 54vw); } .hero .hero-body h1 { font-size: clamp(48px, 5.6vw, 88px); } }
 .article-page .article-cover { width: 100%; height: auto; margin: 0 0 48px; display: block; }
+.article-page .article-photo { margin: 0 0 48px; }
+.article-page .article-photo .article-cover { margin: 0; aspect-ratio: 4 / 3; object-fit: cover; }
+.article-photo figcaption { margin-top: 10px; font-size: 12px; letter-spacing: .06em; color: var(--slate); }
+.article-photo figcaption a, .footer-base a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.hero-art.hero-photo { opacity: .55; filter: grayscale(.35) contrast(1.05); -webkit-mask-image: linear-gradient(to left, #000 45%, transparent), linear-gradient(to top, transparent, #000 30%); -webkit-mask-composite: source-in; mask-image: linear-gradient(to left, #000 45%, transparent), linear-gradient(to top, transparent, #000 30%); mask-composite: intersect; }
 
 /* Infographics */
 .infographic { margin: 48px 0; padding: clamp(24px, 4vw, 40px); background: #fff; border: 1px solid #e2ded5; border-top: 3px solid var(--champagne); }
