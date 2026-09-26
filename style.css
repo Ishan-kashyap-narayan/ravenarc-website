@@ -161,23 +161,11 @@ p { margin: 0; text-wrap: pretty; }
 .arc-layer.l2 { background: var(--midnight-2); margin: 0 18px; }
 .arc-layer.l3 { background: var(--midnight-3); border: 1px solid #2a3348; margin: 0 36px; }
 
-/* Cases */
-.cases { border-top: 1px solid var(--ink); }
-.case { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 24px 48px; padding: 40px 0; border-bottom: 1px solid var(--rule); align-items: baseline; }
-.case-meta, .case-metric { display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: var(--graphite); }
-.case-story { font-family: var(--serif); font-weight: 500; font-size: clamp(24px, 2.3vw, 30px); line-height: 1.25; }
-.metric { font-family: var(--serif); font-size: clamp(44px, 4.4vw, 60px); line-height: 1; color: var(--bronze); }
-
-/* People */
-.people { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 32px; margin: 56px 0; }
-.person { display: flex; flex-direction: column; gap: 6px; }
-.person .media { margin-bottom: 12px; }
-.person-name { font-family: var(--serif); font-weight: 500; font-size: 26px; }
-.person-role { font-size: 15px; color: var(--graphite); }
-.values { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 32px; border-top: 1px solid #c9c3b6; padding-top: 40px; }
-.values div { display: flex; flex-direction: column; gap: 10px; }
-.value-name { font-family: var(--serif); font-style: italic; font-size: 26px; color: var(--bronze); }
-.values p { font-size: 16px; line-height: 1.6; color: var(--body); }
+/* Coming next */
+.coming { margin-top: 64px; border-top: 1px solid var(--ink); padding-top: 24px; }
+.coming-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 0 32px; }
+.coming-list li { display: flex; flex-direction: column; gap: 8px; padding: 22px 0; border-bottom: 1px solid var(--rule); }
+.coming-title { font-family: var(--serif); font-weight: 500; font-size: 24px; line-height: 1.25; color: var(--ink); }
 
 /* Contact */
 .contact { background: var(--midnight); color: var(--ivory); position: relative; overflow: hidden; }
