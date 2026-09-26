@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: a target of concentric rings beside a measuring gauge</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<circle cx="400" cy="450" r="270" fill="none" stroke="#8d95a6" stroke-opacity="0.45" stroke-width="2"/>
+<circle cx="400" cy="450" r="200" fill="none" stroke="#8d95a6" stroke-opacity="0.45" stroke-width="2"/>
+<circle cx="400" cy="450" r="140" fill="none" stroke="#8d95a6" stroke-opacity="0.45" stroke-width="2"/>
+<circle cx="400" cy="450" r="90" fill="none" stroke="#cdb88f" stroke-opacity="1" stroke-width="4"/>
+<circle cx="400" cy="450" r="30" fill="#cdb88f"/>
+<line x1="170" y1="220" x2="385" y2="435" stroke="#f4f1ea" stroke-width="4"/><path d="M170 220 l-6 -34 M170 220 l-34 -6 M192 242 l-6 -34 M192 242 l-34 -6" stroke="#f4f1ea" stroke-width="3"/>
+<path d="M640 560 A220 220 0 0 1 1080 560" fill="none" stroke="#8d95a6" stroke-opacity=".4" stroke-width="22"/>
+<path d="M640 560 A220 220 0 0 1 1001 391" fill="none" stroke="#cdb88f" stroke-width="22"/>
+<line x1="680" y1="560" x2="700" y2="560" stroke="#8d95a6" stroke-width="3"/>
+<line x1="691" y1="498" x2="710" y2="505" stroke="#8d95a6" stroke-width="3"/>
+<line x1="722" y1="444" x2="737" y2="457" stroke="#8d95a6" stroke-width="3"/>
+<line x1="770" y1="404" x2="780" y2="421" stroke="#8d95a6" stroke-width="3"/>
+<line x1="829" y1="383" x2="832" y2="402" stroke="#8d95a6" stroke-width="3"/>
+<line x1="891" y1="383" x2="888" y2="402" stroke="#8d95a6" stroke-width="3"/>
+<line x1="950" y1="404" x2="940" y2="421" stroke="#8d95a6" stroke-width="3"/>
+<line x1="998" y1="444" x2="983" y2="457" stroke="#8d95a6" stroke-width="3"/>
+<line x1="1029" y1="498" x2="1010" y2="505" stroke="#8d95a6" stroke-width="3"/>
+<line x1="1040" y1="560" x2="1020" y2="560" stroke="#8d95a6" stroke-width="3"/>
+<line x1="860" y1="560" x2="956" y2="445" stroke="#f4f1ea" stroke-width="6" stroke-linecap="round"/><circle cx="860" cy="560" r="16" fill="#f4f1ea"/>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>

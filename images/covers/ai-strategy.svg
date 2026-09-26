@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: a grid of nodes with a gold path traced through them, inside concentric rings</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<circle cx="600" cy="450" r="380" fill="none" stroke="#8d95a6" stroke-opacity="0.18" stroke-width="2"/>
+<circle cx="600" cy="450" r="290" fill="none" stroke="#8d95a6" stroke-opacity="0.25" stroke-width="2"/>
+<circle cx="600" cy="450" r="200" fill="none" stroke="#8d95a6" stroke-opacity="0.32" stroke-width="2"/>
+<circle cx="360" cy="210" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="360" cy="330" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="360" cy="450" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="360" cy="570" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="360" cy="690" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="480" cy="210" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="480" cy="330" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="480" cy="450" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="480" cy="570" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="480" cy="690" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="600" cy="210" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="600" cy="330" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="600" cy="450" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="600" cy="570" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="600" cy="690" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="720" cy="210" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="720" cy="330" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="720" cy="450" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="720" cy="570" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="720" cy="690" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="840" cy="210" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="840" cy="330" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="840" cy="450" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="840" cy="570" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="840" cy="690" r="9" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="2"/>
+<polyline points="360,690 480,570 480,450 600,450 720,330 840,210" fill="none" stroke="#cdb88f" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="360" cy="690" r="14" fill="#cdb88f"/>
+<circle cx="480" cy="570" r="14" fill="#cdb88f"/>
+<circle cx="480" cy="450" r="14" fill="#cdb88f"/>
+<circle cx="600" cy="450" r="14" fill="#cdb88f"/>
+<circle cx="720" cy="330" r="14" fill="#cdb88f"/>
+<circle cx="840" cy="210" r="14" fill="#cdb88f"/>
+<circle cx="840" cy="210" r="30" fill="none" stroke="#f4f1ea" stroke-width="4"/>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>

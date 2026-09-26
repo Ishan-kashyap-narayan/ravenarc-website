@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: two overlapping circles with their shared area highlighted in gold</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<defs><clipPath id="c1"><circle cx="470" cy="450" r="260"/></clipPath></defs>
+<circle cx="470" cy="450" r="260" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".6" stroke-width="3"/>
+<circle cx="730" cy="450" r="260" fill="#1a2336" fill-opacity=".6" stroke="#8d95a6" stroke-opacity=".6" stroke-width="3"/>
+<circle cx="730" cy="450" r="260" fill="#cdb88f" fill-opacity=".9" clip-path="url(#c1)"/>
+<path d="M600 225 L600 675" stroke="#0f1626" stroke-opacity=".35" stroke-width="2"/>
+<circle cx="470" cy="450" r="330" fill="none" stroke="#cdb88f" stroke-opacity=".2" stroke-width="2"/>
+<circle cx="730" cy="450" r="330" fill="none" stroke="#cdb88f" stroke-opacity=".2" stroke-width="2"/>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: rising bars beneath a gold curve that flattens as spend increases</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<rect x="170" y="610" width="56" height="150" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="258" y="500" width="56" height="260" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="346" y="419" width="56" height="341" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="434" y="360" width="56" height="400" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="522" y="317" width="56" height="443" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="610" y="286" width="56" height="474" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="698" y="263" width="56" height="497" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="786" y="246" width="56" height="514" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="874" y="234" width="56" height="526" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="962" y="225" width="56" height="535" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<polyline points="198,586 224,549 251,516 277,485 304,458 330,432 356,409 383,389 409,370 436,352 462,336 488,322 515,309 541,297 568,286 594,276 620,267 647,259 673,252 700,245 726,239 752,233 779,228 805,223 832,219 858,215 884,212 911,209 937,206 964,203 990,201" fill="none" stroke="#cdb88f" stroke-width="5"/>
+<line x1="140" y1="760" x2="1070" y2="760" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<circle cx="462" cy="336" r="14" fill="#f4f1ea"/>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>

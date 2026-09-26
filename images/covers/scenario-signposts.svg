@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: four quadrants crossed by a gold arc, with signpost markers along its path</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<line x1="600" y1="110" x2="600" y2="790" stroke="#8d95a6" stroke-opacity=".4" stroke-width="2"/>
+<line x1="150" y1="450" x2="1050" y2="450" stroke="#8d95a6" stroke-opacity=".4" stroke-width="2"/>
+<rect x="225" y="170" width="300" height="220" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".25" stroke-width="2"/>
+<rect x="675" y="170" width="300" height="220" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".25" stroke-width="2"/>
+<rect x="225" y="510" width="300" height="220" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".25" stroke-width="2"/>
+<rect x="675" y="510" width="300" height="220" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".25" stroke-width="2"/>
+<path d="M200 740 Q560 640 700 420 T1020 170" fill="none" stroke="#cdb88f" stroke-width="5"/>
+<line x1="330" y1="700" x2="330" y2="630" stroke="#f4f1ea" stroke-width="3"/><path d="M330 630 h46 l-12 14 l12 14 h-46 z" fill="#cdb88f"/>
+<circle cx="330" cy="700" r="10" fill="#f4f1ea"/>
+<line x1="560" y1="600" x2="560" y2="530" stroke="#f4f1ea" stroke-width="3"/><path d="M560 530 h46 l-12 14 l12 14 h-46 z" fill="#cdb88f"/>
+<circle cx="560" cy="600" r="10" fill="#f4f1ea"/>
+<line x1="700" y1="420" x2="700" y2="350" stroke="#f4f1ea" stroke-width="3"/><path d="M700 350 h46 l-12 14 l12 14 h-46 z" fill="#cdb88f"/>
+<circle cx="700" cy="420" r="10" fill="#f4f1ea"/>
+<line x1="860" y1="260" x2="860" y2="190" stroke="#f4f1ea" stroke-width="3"/><path d="M860 190 h46 l-12 14 l12 14 h-46 z" fill="#cdb88f"/>
+<circle cx="860" cy="260" r="10" fill="#f4f1ea"/>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>
