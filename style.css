@@ -280,3 +280,10 @@ img.media { width: 100%; height: auto; object-fit: cover; }
 .ig-check .ig-num { font-size: 34px; color: var(--bronze); }
 .ig-check b { color: var(--ink); font-weight: 600; }
 .cap-icon { width: 52px; height: 52px; fill: none; stroke: var(--champagne); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Official logo lockup (images/brand/) */
+.brand-lockup { display: block; height: 38px; width: auto; }
+.brand-lockup.sm { height: 30px; }
+@media (max-width: 600px) { .nav .brand-lockup { height: 32px; } }
+.tagline-sm { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--champagne); }
+.footer-mini { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding-bottom: 24px; }
