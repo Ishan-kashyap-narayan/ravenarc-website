@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: several paths fanning out from one point, with a single path picked out in gold</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<path d="M170 700 Q376 244 335 -236" fill="none" stroke="#8d95a6" stroke-opacity="0.3" stroke-width="2"/>
+<circle cx="292" cy="298" r="7" fill="#0f1626" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<path d="M170 700 Q466 297 526 -181" fill="none" stroke="#8d95a6" stroke-opacity="0.3" stroke-width="2"/>
+<circle cx="373" cy="332" r="7" fill="#0f1626" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<path d="M170 700 Q543 368 701 -88" fill="none" stroke="#8d95a6" stroke-opacity="0.3" stroke-width="2"/>
+<circle cx="445" cy="382" r="7" fill="#0f1626" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<path d="M170 700 Q604 452 853 40" fill="none" stroke="#8d95a6" stroke-opacity="0.3" stroke-width="2"/>
+<circle cx="505" cy="447" r="7" fill="#0f1626" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<path d="M170 700 Q646 548 976 197" fill="none" stroke="#cdb88f" stroke-opacity="1" stroke-width="5"/>
+<path d="M170 700 Q668 651 1063 375" fill="none" stroke="#8d95a6" stroke-opacity="0.3" stroke-width="2"/>
+<circle cx="579" cy="605" r="7" fill="#0f1626" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<path d="M170 700 Q667 755 1111 568" fill="none" stroke="#8d95a6" stroke-opacity="0.3" stroke-width="2"/>
+<circle cx="590" cy="692" r="7" fill="#0f1626" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<path d="M170 700 Q645 857 1118 766" fill="none" stroke="#8d95a6" stroke-opacity="0.3" stroke-width="2"/>
+<circle cx="582" cy="779" r="7" fill="#0f1626" stroke="#8d95a6" stroke-opacity=".5" stroke-width="2"/>
+<circle cx="170" cy="700" r="30" fill="#cdb88f"/>
+<circle cx="857" cy="252" r="22" fill="#0f1626" stroke="#f4f1ea" stroke-width="4"/>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>
