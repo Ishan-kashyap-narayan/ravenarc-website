@@ -1,3 +1,13 @@
 # Static site: no build step, publish the repository root.
+# The explicit command overrides any build command left in Netlify's UI settings.
 [build]
+  command = "echo 'Static site: nothing to build'"
   publish = "."
+
+# Basic security headers for every page.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

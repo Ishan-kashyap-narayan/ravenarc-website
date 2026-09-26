@@ -203,3 +203,12 @@ p { margin: 0; text-wrap: pretty; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .article, .fade { animation: none; }
 }
+
+/* Legal pages (privacy.html, terms.html) */
+.legal { max-width: 820px; padding-top: 164px; padding-bottom: clamp(80px, 10vw, 120px); }
+.legal h1 { font-size: clamp(40px, 5vw, 64px); line-height: 1.05; }
+.legal h2 { font-size: clamp(26px, 2.6vw, 32px); margin: 44px 0 14px; }
+.legal p { font-size: 18px; line-height: 1.7; color: var(--body); margin-bottom: 16px; }
+.legal p.note { font-size: 15px; margin: 14px 0 36px; }
+.legal a { color: var(--bronze); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 979px) { .page-legal .nav-links { display: flex; } }
