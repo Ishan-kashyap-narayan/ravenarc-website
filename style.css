@@ -223,12 +223,6 @@ p { margin: 0; text-wrap: pretty; }
 .form-alt a { color: var(--champagne); }
 
 /* Follow links */
-.follow { display: flex; flex-direction: column; align-items: center; gap: 14px; margin-top: 8px; }
-.follow-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-.follow-links a, .follow-links .soon { font-size: 14px; padding: 9px 16px; border: 1px solid #3a4256; color: var(--ivory); }
-.follow-links a:hover { border-color: var(--champagne); color: var(--champagne); }
-.follow-links .soon { opacity: .45; cursor: default; }
-.footer .soon { font-size: 13px; opacity: .7; }
 .article[hidden] { display: none; }
 h3.article-title { margin: 0; }
 p.article-dek { margin: 0; }
@@ -287,3 +281,29 @@ img.media { width: 100%; height: auto; object-fit: cover; }
 @media (max-width: 600px) { .nav .brand-lockup { height: 32px; } }
 .tagline-sm { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--champagne); }
 .footer-mini { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding-bottom: 24px; }
+
+/* "Elsewhere" band: one place for social channels, at the top of every footer */
+.channels { display: grid; grid-template-columns: minmax(200px, 1fr) 3fr; gap: 24px 40px; align-items: center; padding-bottom: 44px; margin-bottom: 44px; border-bottom: 1px solid #1f283a; }
+.channels-title { margin: 8px 0 0; font-family: var(--serif); font-size: clamp(24px, 2.4vw, 32px); line-height: 1.15; color: var(--ivory); }
+.channel-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+.channel { --c: #3a4256; position: relative; display: flex; flex-direction: column; gap: 6px; padding: 18px 16px; background: #111a2b; border: 1px solid #1f283a; color: var(--ivory); overflow: hidden; transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease; }
+.channel::before { content: ""; position: absolute; inset: 0; background: var(--c); opacity: 0; transition: opacity .25s ease; }
+.channel > * { position: relative; }
+.channel-icon { display: grid; place-items: center; width: 40px; height: 40px; margin-bottom: 8px; border-radius: 50%; background: var(--c); color: #fff; transition: transform .25s ease; }
+.channel-icon svg { width: 20px; height: 20px; fill: currentColor; }
+.channel-name { display: flex; justify-content: space-between; font-weight: 600; font-size: 15px; }
+.channel-go { color: var(--champagne); transition: transform .25s ease; }
+.channel-desc { font-size: 13px; line-height: 1.45; color: var(--mist); }
+a.channel:hover, a.channel:focus-visible { color: var(--ivory); transform: translateY(-4px); border-color: var(--c); box-shadow: 0 16px 32px -16px var(--c); }
+a.channel:hover::before { opacity: .12; }
+a.channel:hover .channel-icon { transform: scale(1.08) rotate(-6deg); }
+a.channel:hover .channel-go { transform: translate(3px, -3px); }
+.channel.s-linkedin { --c: #0a66c2; }
+.channel.s-x { --c: #e7e9ea; }
+.channel.s-x .channel-icon { background: #000; box-shadow: inset 0 0 0 1px rgba(255,255,255,.3); }
+.channel.s-instagram { --c: #e1306c; }
+.channel.s-instagram .channel-icon { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); }
+.channel.s-facebook { --c: #0866ff; }
+.channel.soon { --c: #ff0000; opacity: .45; }
+@media (max-width: 1000px) { .channels { grid-template-columns: 1fr; } .channel-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 600px) { .channel-grid { grid-template-columns: 1fr 1fr; } .channel.soon { grid-column: 1 / -1; } }
