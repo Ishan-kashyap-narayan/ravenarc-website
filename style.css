@@ -224,11 +224,6 @@ p { margin: 0; text-wrap: pretty; }
 
 /* Follow links */
 .follow { display: flex; flex-direction: column; align-items: center; gap: 14px; margin-top: 8px; }
-.follow-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
-.follow-links a, .follow-links .soon { font-size: 14px; padding: 9px 16px; border: 1px solid #3a4256; color: var(--ivory); }
-.follow-links a:hover { border-color: var(--champagne); color: var(--champagne); }
-.follow-links .soon { opacity: .45; cursor: default; }
-.footer .soon { font-size: 13px; opacity: .7; }
 .article[hidden] { display: none; }
 h3.article-title { margin: 0; }
 p.article-dek { margin: 0; }
@@ -287,3 +282,23 @@ img.media { width: 100%; height: auto; object-fit: cover; }
 @media (max-width: 600px) { .nav .brand-lockup { height: 32px; } }
 .tagline-sm { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--champagne); }
 .footer-mini { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding-bottom: 24px; }
+
+/* Social icons (brand colours) */
+.social { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.social a, .social .soon { --c: #3a4256; display: inline-flex; align-items: center; justify-content: center; gap: 10px; color: #fff; background: var(--c); border-radius: 999px; transition: transform .2s ease, box-shadow .2s ease, filter .2s ease; }
+.social svg { width: 18px; height: 18px; fill: currentColor; flex: none; }
+.social a:hover, .social a:focus-visible { color: #fff; transform: translateY(-3px); box-shadow: 0 10px 24px -8px var(--c); filter: brightness(1.08); }
+.social .s-linkedin { --c: #0a66c2; }
+.social .s-x { --c: #000; box-shadow: inset 0 0 0 1px rgba(255,255,255,.28); }
+.social .s-x:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,.6), 0 10px 24px -8px rgba(255,255,255,.35); }
+.social .s-instagram { --c: #e1306c; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); }
+.social .s-facebook { --c: #0866ff; }
+.social .soon { --c: #ff0000; opacity: .35; cursor: default; }
+.social-sm a, .social-sm .soon { width: 38px; height: 38px; }
+.social-lg { justify-content: center; gap: 12px; }
+.social-lg a, .social-lg .soon { padding: 11px 20px 11px 16px; font-size: 15px; font-weight: 500; }
+.social-lg svg { width: 20px; height: 20px; }
+.footer-mini .social { margin-left: auto; }
+.cta-follow { align-self: stretch; display: flex; flex-direction: column; gap: 12px; margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--rule); }
+.cta-follow .social .s-x { box-shadow: none; }
+@media (max-width: 600px) { .footer-mini .social { margin-left: 0; } .social-lg a, .social-lg .soon { padding: 10px 16px 10px 13px; font-size: 14px; } }
