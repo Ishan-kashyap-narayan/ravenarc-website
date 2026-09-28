@@ -1,0 +1,16 @@
+# Permanent redirects, read by Cloudflare Pages (and by Netlify).
+# Clean addresses such as /insights/rcb-sale need no rules here: Cloudflare Pages serves
+# insights/rcb-sale.html for them automatically. netlify.toml keeps Netlify's equivalents.
+# Old long article addresses (live until 2026-09-26) point to the short ones.
+/perspectives/cost-of-the-decision-you-havent-made.html /insights/cost-of-delay 301
+/perspectives/ai-is-an-operating-model-question-first.html /insights/ai-operating-model 301
+/perspectives/five-questions-before-approving-a-transformation.html /insights/transformation-questions 301
+/perspectives/how-to-write-a-business-strategy.html /insights/business-strategy 301
+/perspectives/scenario-planning-that-leaders-actually-use.html /insights/scenario-planning 301
+/perspectives/how-to-measure-marketing-roi.html /insights/marketing-roi 301
+/perspectives/ai-strategy-a-practical-guide-for-ceos.html /insights/ai-strategy 301
+/perspectives/why-most-mergers-fail-to-create-value.html /insights/why-mergers-fail 301
+/perspectives/supply-chain-resilience-without-sacrificing-margin.html /insights/supply-chain-resilience 301
+/perspectives/okrs-vs-kpis.html /insights/okrs-vs-kpis 301
+/perspectives/what-is-an-operating-model.html /insights/operating-model 301
+/perspectives/* /#latest 301
