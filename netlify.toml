@@ -30,6 +30,11 @@
   status = 200
 
 [[redirects]]
+  from = "/podcast"
+  to = "/podcast.html"
+  status = 200
+
+[[redirects]]
   from = "/method"
   to = "/method.html"
   status = 200

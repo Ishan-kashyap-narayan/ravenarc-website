@@ -368,3 +368,19 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 /* Case notes */
 .legal p.case-scope { font-size: 16px; padding: 18px 22px; border: 1px solid var(--rule); color: var(--graphite); }
 .article-page > h3 { font-size: clamp(21px, 2vw, 24px); margin: 32px 0 10px; }
+
+/* Audio: listen block and podcast page */
+.listen { margin: 0 0 36px; padding: 20px 22px; background: var(--midnight, #0f1626); color: var(--ivory); display: flex; flex-direction: column; gap: 14px; }
+.listen-head { display: flex; gap: 14px; align-items: center; }
+.listen-icon { color: var(--champagne); display: flex; }
+.legal .listen p { margin: 0; color: var(--ivory); }
+.legal .listen p.listen-title { font-family: var(--serif); font-size: 24px; line-height: 1.2; margin-top: 4px; }
+.listen-title span { font-family: var(--sans); font-size: 13px; letter-spacing: .12em; color: var(--champagne); margin-left: 8px; }
+.listen audio, .episode audio { width: 100%; }
+.legal .listen p.listen-note { font-size: 14px; color: var(--mist, #b8bfcc); }
+.legal .listen a { color: var(--champagne); }
+.listen-tag { color: var(--bronze); }
+.episode { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--rule); display: flex; flex-direction: column; gap: 12px; }
+.legal .episode h2 { margin: 0; }
+.legal .episode p { margin: 0; }
+.legal .episode p.listen-note { font-size: 15px; color: var(--graphite); }
