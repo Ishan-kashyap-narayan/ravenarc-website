@@ -33,4 +33,5 @@ Source IDs (https://images.unsplash.com/photo-<id>):
   sports-front-office                                  1512719994953-eabf50895df7
   ipl-auction-strategy                                 1531415074968-036ba1b575da
   ipl-franchise-value                                  1540747913346-19e32dc3e97e
+  rcb-sale                                             1624526267942-ab0ff8a3e972
 The cover SVGs in images/covers/ are kept so any photo can be swapped back.
