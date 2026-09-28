@@ -333,3 +333,23 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 .brief-form button { cursor: pointer; background: transparent; }
 .brief-form .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+/* Decision tools */
+.calc { margin: 8px 0 32px; }
+.calc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px 28px; }
+.calc label { display: flex; flex-direction: column; gap: 8px; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--graphite); }
+.calc input, .calc select { font: 400 17px/1.4 var(--sans); color: var(--ink); background: #fff; border: 1px solid var(--rule); padding: 12px 14px; border-radius: 0; letter-spacing: 0; text-transform: none; width: 100%; }
+.calc input:focus, .calc select:focus { outline: none; border-color: var(--bronze); }
+.calc small { font-size: 14px; letter-spacing: 0; text-transform: none; color: var(--slate); line-height: 1.45; }
+.calc-out { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.calc-stat { background: var(--stone); padding: 24px; display: flex; flex-direction: column; gap: 8px; }
+.calc-stat strong { font-family: var(--serif); font-weight: 500; font-size: clamp(30px, 3.4vw, 40px); line-height: 1.1; color: var(--ink); }
+.calc-stat small { font-size: 14px; color: var(--graphite); line-height: 1.45; }
+.legal p.calc-summary { font-family: var(--serif); font-size: 24px; line-height: 1.4; color: var(--ink); margin: 28px 0 0; }
+.method-steps { list-style: none; padding: 0; margin: 24px 0 0; }
+.method-steps li { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 24px 0; border-top: 1px solid var(--rule); }
+.method-steps .ig-num { font-family: var(--serif); font-size: 34px; color: var(--bronze); line-height: 1; }
+.legal .method-steps h2 { margin: 0 0 8px; font-size: 26px; }
+.legal .method-steps p { margin: 0; }
+.method-note { margin-top: 40px; font-size: 16px; }
+@media (max-width: 640px) { .calc-out { grid-template-columns: 1fr; } }
