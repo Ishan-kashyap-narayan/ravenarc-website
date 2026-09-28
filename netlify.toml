@@ -30,6 +30,16 @@
   status = 200
 
 [[redirects]]
+  from = "/method"
+  to = "/method.html"
+  status = 200
+
+[[redirects]]
+  from = "/tools/:name"
+  to = "/tools/:name.html"
+  status = 200
+
+[[redirects]]
   from = "/standards"
   to = "/standards.html"
   status = 200
