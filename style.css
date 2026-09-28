@@ -353,3 +353,14 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 .legal .method-steps p { margin: 0; }
 .method-note { margin-top: 40px; font-size: 16px; }
 @media (max-width: 640px) { .calc-out { grid-template-columns: 1fr; } }
+
+/* Evidence and sources at the foot of articles */
+.evidence { margin-top: 56px; padding: 28px 32px; border-left: 2px solid var(--champagne); background: var(--stone); }
+.legal .evidence h3 { font-family: var(--sans); font-size: 12px; font-weight: 500; letter-spacing: .26em; text-transform: uppercase; color: var(--bronze); margin: 0 0 10px; }
+.legal .evidence h3 + p { margin-bottom: 0; }
+.legal .evidence ul + p, .legal .evidence .ev-note { font-size: 15px; color: var(--graphite); margin: 16px 0 0; }
+.legal .evidence ul { margin: 0; padding-left: 20px; }
+.legal .evidence li { font-size: 16px; line-height: 1.6; color: var(--body); margin-bottom: 6px; }
+.legal .evidence h3:not(:first-child) { margin-top: 24px; }
+.legal p.method-note { font-size: 16px; margin-top: 24px; }
+@media (max-width: 640px) { .evidence { padding: 22px 20px; } }
