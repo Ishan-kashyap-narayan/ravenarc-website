@@ -30,6 +30,16 @@
   status = 200
 
 [[redirects]]
+  from = "/standards"
+  to = "/standards.html"
+  status = 200
+
+[[redirects]]
+  from = "/subscribed"
+  to = "/subscribed.html"
+  status = 200
+
+[[redirects]]
   from = "/thanks"
   to = "/thanks.html"
   status = 200
