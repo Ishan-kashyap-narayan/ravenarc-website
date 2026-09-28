@@ -384,6 +384,6 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 .legal .episode h2 { margin: 0; }
 .legal .episode p { margin: 0; }
 .legal .episode p.listen-note { font-size: 15px; color: var(--graphite); }
-.eyebrow a.eyebrow-listen { color: var(--ink); text-decoration: none; border: 1px solid var(--bronze); padding: 3px 8px; margin-left: 4px; }
-.eyebrow a.eyebrow-listen:hover { background: var(--ink); color: var(--ivory); }
+.legal a.listen-pill { display: inline-block; margin: -16px 0 28px; padding: 10px 16px; background: var(--ink); color: var(--ivory); text-decoration: none; font-size: 14px; letter-spacing: .06em; }
+.legal a.listen-pill:hover { background: var(--bronze); }
 .listen { scroll-margin-top: 110px; border-left: 3px solid var(--champagne); }
