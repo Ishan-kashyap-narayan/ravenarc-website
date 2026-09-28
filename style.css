@@ -364,3 +364,7 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 .legal .evidence h3:not(:first-child) { margin-top: 24px; }
 .legal p.method-note { font-size: 16px; margin-top: 24px; }
 @media (max-width: 640px) { .evidence { padding: 22px 20px; } }
+
+/* Case notes */
+.legal p.case-scope { font-size: 16px; padding: 18px 22px; border: 1px solid var(--rule); color: var(--graphite); }
+.article-page > h3 { font-size: clamp(21px, 2vw, 24px); margin: 32px 0 10px; }
