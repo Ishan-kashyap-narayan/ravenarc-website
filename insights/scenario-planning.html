@@ -115,9 +115,12 @@
     <div class="kicker bronze">THE RAVENARC BRIEF</div>
     <h2 id="brief-a">One considered idea, straight to your inbox.</h2>
     <p>A short note when we publish something worth a leader’s time. No noise, and you can leave with one click.</p>
-    <form class="brief-form" name="brief" method="POST" action="/subscribed" data-netlify="true" netlify-honeypot="company">
-      <input type="hidden" name="form-name" value="brief">
-      <p class="hp" aria-hidden="true"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+    <form class="brief-form" name="brief" method="POST" action="https://api.web3forms.com/submit">
+      <input type="hidden" name="access_key" value="9100841d-4405-43bc-bcc7-b7c8144a3ab9">
+      <input type="hidden" name="subject" value="New RavenArc Brief subscriber">
+      <input type="hidden" name="from_name" value="RavenArc website">
+      <input type="hidden" name="redirect" value="https://ravenarcgroup.com/subscribed">
+      <p class="hp" aria-hidden="true"><label>Leave this unticked <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label></p>
       <label class="sr-only" for="brief-email-a">Email address</label>
       <input id="brief-email-a" type="email" name="email" autocomplete="email" placeholder="Your work email" required>
       <button type="submit" class="btn btn-ink">Subscribe</button>
