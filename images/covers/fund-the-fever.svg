@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: a signal line rises across a dashed threshold, and at the crossing point a gold coin drops toward a row of small squares</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<rect x="170" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="226" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="282" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="338" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="394" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="450" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="506" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="562" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="618" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="674" y="700" width="40" height="40" fill="#cdb88f"/>
+<rect x="730" y="700" width="40" height="40" fill="#cdb88f"/>
+<rect x="786" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="842" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="898" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="954" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="1010" y="700" width="40" height="40" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<line x1="140" y1="380" x2="1070" y2="380" stroke="#8d95a6" stroke-opacity=".7" stroke-width="3" stroke-dasharray="12 10"/>
+<polyline points="140,560 156,560 171,560 186,560 202,560 218,560 233,560 248,560 264,560 280,560 295,560 310,560 326,560 342,560 357,560 372,560 388,559 404,559 419,558 434,557 450,556 466,554 481,551 496,546 512,541 528,533 543,523 558,511 574,496 590,478 605,457 620,434 636,409 652,382 667,356 682,330 698,307 714,287 729,273 744,263 760,260 776,263 791,273 806,287 822,307 838,330 853,356 868,382 884,409 900,434 915,457 930,478 946,496 962,511 977,523 992,533 1008,541 1024,546 1039,551 1054,554 1070,556" fill="none" stroke="#cdb88f" stroke-width="5"/>
+<line x1="653" y1="380" x2="681" y2="690" stroke="#f4f1ea" stroke-opacity=".5" stroke-width="2" stroke-dasharray="4 8"/>
+<circle cx="653" cy="380" r="14" fill="#f4f1ea"/>
+<circle cx="681" cy="640" r="26" fill="none" stroke="#cdb88f" stroke-width="4"/><text x="681" y="652" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#cdb88f">₹</text>
+<path d="M-40 880 Q600 700 1240 820" fill="none" stroke="#cdb88f" stroke-opacity=".3" stroke-width="2"/>
+</svg>
