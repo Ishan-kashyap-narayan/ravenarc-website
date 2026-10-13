@@ -306,6 +306,7 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 .channel.s-facebook { --c: #0866ff; }
 .channel.s-spotify { --c: #1db954; }
 .channel.s-spotify .channel-icon { background: #000; color: #1ed760; }
+.channel.s-youtube { --c: #ff0000; }
 .channel.soon { --c: #ff0000; opacity: .45; }
 @media (max-width: 1000px) { .channels { grid-template-columns: 1fr; } .channel-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 600px) { .channel-grid { grid-template-columns: 1fr 1fr; } }
@@ -410,6 +411,12 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 @media (max-width: 600px) { .spotify-btn { width: 100%; } }
 .legal a.spotify-btn, .legal a.spotify-btn:hover { text-decoration: none; }
 .legal a.spotify-btn { color: #fff; }
+.yt-btn { border-color: rgba(255,0,0,.4); box-shadow: 0 10px 24px -14px rgba(255,0,0,.55); }
+.yt-btn svg, .yt-btn small { fill: #ff0000; color: #ff4d4d; }
+.yt-btn:hover, .yt-btn:focus-visible { color: #fff; background: #ff0000; border-color: #ff0000; box-shadow: 0 16px 30px -12px rgba(255,0,0,.7); }
+.yt-btn:hover svg, .yt-btn:focus-visible svg { fill: #fff; }
+.yt-btn:hover small, .yt-btn:focus-visible small { color: rgba(255,255,255,.85); }
+.legal a.yt-btn:hover { color: #fff; }
 .legal a.spotify-btn:hover { color: #000; }
 .spotify-row.on-light { margin: -8px 0 8px; }
 .listen .spotify-row { margin-top: 4px; }
