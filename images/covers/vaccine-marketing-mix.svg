@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="t"><title id="t">Cover art: a gold response curve rises and flattens above a row of small houses; a few houses are lit gold and joined to the curve by solid lines, the rest are joined by faint dashed lines</title>
+<rect width="1200" height="900" fill="#0f1626"/>
+<line x1="150" y1="600" x2="1060" y2="600" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<line x1="212.0" y1="570.7" x2="212.0" y2="650" stroke="#8d95a6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 8"/>
+<line x1="294.0" y1="501.7" x2="294.0" y2="650" stroke="#cdb88f" stroke-width="2" stroke-opacity=".8"/>
+<line x1="376.0" y1="446.7" x2="376.0" y2="650" stroke="#cdb88f" stroke-width="2" stroke-opacity=".8"/>
+<line x1="458.0" y1="402.8" x2="458.0" y2="650" stroke="#8d95a6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 8"/>
+<line x1="540.0" y1="367.8" x2="540.0" y2="650" stroke="#cdb88f" stroke-width="2" stroke-opacity=".8"/>
+<line x1="622.0" y1="339.9" x2="622.0" y2="650" stroke="#8d95a6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 8"/>
+<line x1="704.0" y1="317.7" x2="704.0" y2="650" stroke="#8d95a6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 8"/>
+<line x1="786.0" y1="299.9" x2="786.0" y2="650" stroke="#cdb88f" stroke-width="2" stroke-opacity=".8"/>
+<line x1="868.0" y1="285.8" x2="868.0" y2="650" stroke="#8d95a6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 8"/>
+<line x1="950.0" y1="274.5" x2="950.0" y2="650" stroke="#8d95a6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 8"/>
+<line x1="1032.0" y1="265.5" x2="1032.0" y2="650" stroke="#8d95a6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 8"/>
+<path d="M170.0,580.0 L178.7,571.5 L187.4,563.1 L196.1,555.0 L204.8,547.0 L213.5,539.3 L222.2,531.7 L230.9,524.3 L239.6,517.1 L248.3,510.1 L257.0,503.2 L265.7,496.5 L274.4,489.9 L283.1,483.5 L291.8,477.3 L300.5,471.2 L309.2,465.2 L317.9,459.4 L326.6,453.7 L335.3,448.2 L344.0,442.8 L352.7,437.5 L361.4,432.3 L370.1,427.3 L378.8,422.4 L387.5,417.6 L396.2,412.9 L404.9,408.3 L413.6,403.8 L422.3,399.5 L431.0,395.2 L439.7,391.1 L448.4,387.0 L457.1,383.1 L465.8,379.2 L474.5,375.4 L483.2,371.7 L491.9,368.1 L500.6,364.6 L509.3,361.2 L518.0,357.8 L526.7,354.6 L535.4,351.4 L544.1,348.3 L552.8,345.2 L561.5,342.3 L570.2,339.4 L578.9,336.5 L587.6,333.8 L596.3,331.1 L605.0,328.4 L613.7,325.9 L622.4,323.3 L631.1,320.9 L639.8,318.5 L648.5,316.2 L657.2,313.9 L665.9,311.7 L674.6,309.5 L683.3,307.4 L692.0,305.3 L700.7,303.3 L709.4,301.3 L718.1,299.4 L726.8,297.5 L735.5,295.6 L744.2,293.9 L752.9,292.1 L761.6,290.4 L770.3,288.7 L779.0,287.1 L787.7,285.5 L796.4,284.0 L805.1,282.4 L813.8,281.0 L822.5,279.5 L831.2,278.1 L839.9,276.7 L848.6,275.4 L857.3,274.1 L866.0,272.8 L874.7,271.5 L883.4,270.3 L892.1,269.1 L900.8,267.9 L909.5,266.8 L918.2,265.7 L926.9,264.6 L935.6,263.6 L944.3,262.5 L953.0,261.5 L961.7,260.5 L970.4,259.6 L979.1,258.6 L987.8,257.7 L996.5,256.8 L1005.2,255.9 L1013.9,255.1 L1022.6,254.3 L1031.3,253.5 L1040.0,252.7" fill="none" stroke="#cdb88f" stroke-width="5" stroke-linecap="round"/>
+<circle cx="212.0" cy="560.7" r="6" fill="#0f1626" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="294.0" cy="491.7" r="9" fill="#cdb88f" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="376.0" cy="436.7" r="9" fill="#cdb88f" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="458.0" cy="392.8" r="6" fill="#0f1626" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="540.0" cy="357.8" r="9" fill="#cdb88f" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="622.0" cy="329.9" r="6" fill="#0f1626" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="704.0" cy="307.7" r="6" fill="#0f1626" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="786.0" cy="289.9" r="9" fill="#cdb88f" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="868.0" cy="275.8" r="6" fill="#0f1626" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="950.0" cy="264.5" r="6" fill="#0f1626" stroke="#cdb88f" stroke-width="3"/>
+<circle cx="1032.0" cy="255.5" r="6" fill="#0f1626" stroke="#cdb88f" stroke-width="3"/>
+<polygon points="190,680 212,654 234,680" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="194" y="680" width="36" height="34" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<polygon points="272,680 294,654 316,680" fill="#cdb88f"/>
+<rect x="276" y="680" width="36" height="34" fill="#cdb88f"/>
+<polygon points="354,680 376,654 398,680" fill="#cdb88f"/>
+<rect x="358" y="680" width="36" height="34" fill="#cdb88f"/>
+<polygon points="436,680 458,654 480,680" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="440" y="680" width="36" height="34" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<polygon points="518,680 540,654 562,680" fill="#cdb88f"/>
+<rect x="522" y="680" width="36" height="34" fill="#cdb88f"/>
+<polygon points="600,680 622,654 644,680" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="604" y="680" width="36" height="34" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<polygon points="682,680 704,654 726,680" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="686" y="680" width="36" height="34" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<polygon points="764,680 786,654 808,680" fill="#cdb88f"/>
+<rect x="768" y="680" width="36" height="34" fill="#cdb88f"/>
+<polygon points="846,680 868,654 890,680" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="850" y="680" width="36" height="34" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<polygon points="928,680 950,654 972,680" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="932" y="680" width="36" height="34" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<polygon points="1010,680 1032,654 1054,680" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+<rect x="1014" y="680" width="36" height="34" fill="#1a2336" stroke="#8d95a6" stroke-opacity=".35" stroke-width="2"/>
+</svg>
