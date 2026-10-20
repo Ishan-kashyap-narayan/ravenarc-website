@@ -36,4 +36,5 @@ Source IDs (https://images.unsplash.com/photo-<id>):
   rcb-sale                                             1624526267942-ab0ff8a3e972
   chemist-sentinel                                     1584308666744-24d5c474f2ae
   fund-the-fever                                       1672850385838-77e37a588424
+  vaccine-marketing-mix                                1611694449252-02453c27856a
 The cover SVGs in images/covers/ are kept so any photo can be swapped back.
