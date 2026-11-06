@@ -37,4 +37,5 @@ Source IDs (https://images.unsplash.com/photo-<id>):
   chemist-sentinel                                     1584308666744-24d5c474f2ae
   fund-the-fever                                       1672850385838-77e37a588424
   vaccine-marketing-mix                                1611694449252-02453c27856a
+  sales-ledger                                         (no photo: rendered from covers/sales-ledger.svg)
 The cover SVGs in images/covers/ are kept so any photo can be swapped back.
