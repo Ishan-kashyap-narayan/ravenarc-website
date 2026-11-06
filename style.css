@@ -428,3 +428,12 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 .podcast-more { margin: 22px 0 0; font-size: 15px; }
 .podcast-more a { color: var(--champagne); }
 @media (max-width: 1200px) and (min-width: 1001px) { .channel-grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* Founder (about.html, home About band) */
+.band-dark .founder-line { margin-top: 20px; font-size: 16px; line-height: 1.6; color: var(--mist); max-width: 620px; }
+.band-dark .founder-line a { color: var(--champagne); text-decoration: underline; text-underline-offset: 3px; }
+.legal h3 { font-family: var(--serif); font-weight: 500; font-size: clamp(21px, 2vw, 25px); margin: 30px 0 10px; }
+.founder-role { font-family: var(--serif); font-size: clamp(22px, 2.4vw, 28px); color: var(--graphite); margin: 10px 0 0; }
+.legal .founder-facts { list-style: none; padding: 0; margin: 8px 0 0; border-top: 1px solid var(--rule); }
+.legal .founder-facts li { padding: 14px 0; border-bottom: 1px solid var(--rule); font-size: 17px; line-height: 1.6; color: var(--body); }
+.legal .founder-facts b { display: block; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--bronze); font-weight: 600; margin-bottom: 2px; }
