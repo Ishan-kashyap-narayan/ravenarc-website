@@ -1,0 +1,20 @@
+# RavenArc
+
+> RavenArc is an independent publication on strategy and consequential decisions for chief executives, boards and senior leaders. Founded and edited by Ishan Kashyap. Every piece shows its sources and states what would change our view.
+
+## Topics
+- [Corporate strategy](https://ravenarcgroup.com/topics/corporate-strategy): where to compete, writing a usable strategy, scenario planning, the cost of delay
+- [M&A and investment](https://ravenarcgroup.com/topics/mergers-and-acquisitions): why mergers fail, deal theses, valuation
+- [Operating model and transformation](https://ravenarcgroup.com/topics/operating-model): operating model design, OKRs vs KPIs, board questions on transformation
+- [Supply chain](https://ravenarcgroup.com/topics/supply-chain): resilience without sacrificing margin, demand sensing
+- [AI strategy](https://ravenarcgroup.com/topics/ai-strategy): AI strategy for CEOs, AI as an operating-model question
+- [Marketing analytics](https://ravenarcgroup.com/topics/marketing-analytics): marketing ROI, marketing mix modelling, commercial data for public health in India
+- [Sports business and analytics](https://ravenarcgroup.com/topics/sports-business): IPL franchise valuation, auction strategy, the RCB sale
+
+## Other
+- [The RavenArc Decision Method](https://ravenarcgroup.com/method): six questions for any consequential decision
+- [Cost-of-delay calculator](https://ravenarcgroup.com/tools/cost-of-delay)
+- [Decision Room podcast](https://ravenarcgroup.com/podcast)
+- [About the founder](https://ravenarcgroup.com/about)
+- [Editorial standards](https://ravenarcgroup.com/standards)
+- [RSS feed](https://ravenarcgroup.com/feed.xml)
