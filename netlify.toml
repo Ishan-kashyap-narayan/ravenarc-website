@@ -12,6 +12,16 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
+# Let browsers cache images, audio and fonts for 30 days (faster repeat visits, better Core Web Vitals).
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+[[headers]]
+  for = "/audio/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
 # Short URLs. Pages live at /insights/<name>.html but are linked as /insights/<name>;
 # these rewrites serve the .html file for the clean address (status 200 keeps the URL).
 [[redirects]]
@@ -47,6 +57,11 @@
 [[redirects]]
   from = "/tools/:name"
   to = "/tools/:name.html"
+  status = 200
+
+[[redirects]]
+  from = "/topics/:name"
+  to = "/topics/:name.html"
   status = 200
 
 [[redirects]]

@@ -4,6 +4,7 @@ Static website for RavenArc, deployed on Cloudflare Pages from this repository (
 
 - `index.html`, `style.css`, `script.js`: the home page.
 - `insights/<name>.html`: articles, served at the short address `/insights/<name>` (Cloudflare Pages serves clean addresses automatically; `netlify.toml` holds the Netlify equivalents). Keep names to two or three words.
+- `topics/<name>.html`: topic hub pages (one per practice area), served at `/topics/<name>`, with `topics/index.html` at `/topics/`. When you publish a new article, add its card to the matching hub and a line to `sitemap.xml`.
 - `script.js`: the Perspectives (`ARTICLES`) and Capabilities (`CAPS`) lists.
 - `images/`: logos and photos (see `images/readme.txt` for photo file names).
 

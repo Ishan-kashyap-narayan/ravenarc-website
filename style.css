@@ -437,3 +437,27 @@ a.channel:hover .channel-go { transform: translate(3px, -3px); }
 .legal .founder-facts { list-style: none; padding: 0; margin: 8px 0 0; border-top: 1px solid var(--rule); }
 .legal .founder-facts li { padding: 14px 0; border-bottom: 1px solid var(--rule); font-size: 17px; line-height: 1.6; color: var(--body); }
 .legal .founder-facts b { display: block; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--bronze); font-weight: 600; margin-bottom: 2px; }
+
+/* Topic hubs (/topics/) */
+.crumbs { font-size: 13px; letter-spacing: .06em; color: var(--slate); margin-bottom: 18px; }
+.legal .crumbs a { color: var(--graphite); text-decoration: none; }
+.legal .crumbs a:hover { color: var(--bronze); }
+.topic-questions { margin: 0 0 8px; padding-left: 22px; }
+.topic-questions li { font-size: 18px; line-height: 1.6; color: var(--body); margin-bottom: 10px; }
+.topic-themes { margin: 28px 0 8px; display: flex; flex-direction: column; gap: 12px; }
+.tags-light span { border-color: var(--rule); color: var(--ink); background: transparent; }
+.topic-articles { margin-top: 24px; }
+.legal .topic-articles a.article { text-decoration: none; color: var(--ink); }
+.legal .topic-articles .article-dek { font-size: 16px; line-height: 1.55; margin: 0; }
+.topic-articles .media { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.topic-index { list-style: none; margin: 8px 0 0; padding: 0; }
+.topic-index li { border-top: 1px solid var(--rule); }
+.topic-index li:last-child { border-bottom: 1px solid var(--rule); }
+.legal .topic-index a { display: flex; flex-direction: column; gap: 6px; padding: 22px 0; text-decoration: none; color: var(--ink); }
+.topic-index .topic-name { font-family: var(--serif); font-size: 30px; line-height: 1.15; }
+.topic-index .topic-q { font-size: 17px; color: var(--graphite); }
+.legal .topic-index a:hover .topic-name { color: var(--bronze); }
+.topic-links { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 36px; font-size: 15px; }
+.topic-links .kicker { width: 100%; }
+.topic-links a { color: var(--bronze); text-underline-offset: 3px; }
+.cap-more { display: inline-block; margin-top: 22px; color: var(--champagne); font-size: 15px; text-underline-offset: 3px; }

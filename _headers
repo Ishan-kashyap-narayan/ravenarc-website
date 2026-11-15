@@ -3,3 +3,9 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
+
+# Let browsers cache images and audio for 30 days (faster repeat visits, better Core Web Vitals).
+/images/*
+  Cache-Control: public, max-age=2592000
+/audio/*
+  Cache-Control: public, max-age=2592000
