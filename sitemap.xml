@@ -49,31 +49,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://ravenarcgroup.com/insights/cost-of-delay</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ravenarcgroup.com/insights/ai-operating-model</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ravenarcgroup.com/insights/transformation-questions</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ravenarcgroup.com/insights/business-strategy</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://ravenarcgroup.com/insights/scenario-planning</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>

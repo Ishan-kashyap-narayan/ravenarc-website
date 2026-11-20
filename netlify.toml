@@ -81,24 +81,8 @@
 
 # Old long article addresses (live until 2026-09-26) redirect permanently to the short ones.
 [[redirects]]
-  from = "/perspectives/cost-of-the-decision-you-havent-made.html"
-  to = "/insights/cost-of-delay"
-  status = 301
-[[redirects]]
   from = "/perspectives/ai-is-an-operating-model-question-first.html"
   to = "/insights/ai-operating-model"
-  status = 301
-[[redirects]]
-  from = "/perspectives/five-questions-before-approving-a-transformation.html"
-  to = "/insights/transformation-questions"
-  status = 301
-[[redirects]]
-  from = "/perspectives/how-to-write-a-business-strategy.html"
-  to = "/insights/business-strategy"
-  status = 301
-[[redirects]]
-  from = "/perspectives/scenario-planning-that-leaders-actually-use.html"
-  to = "/insights/scenario-planning"
   status = 301
 [[redirects]]
   from = "/perspectives/how-to-measure-marketing-roi.html"
@@ -128,3 +112,45 @@
   from = "/perspectives/*"
   to = "/#latest"
   status = 301
+
+# Articles taken down on 2026-11-20 (temporary: 302, so they can be restored later).
+[[redirects]]
+  from = "/insights/cost-of-delay"
+  to = "/#latest"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/insights/cost-of-delay.html"
+  to = "/#latest"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/insights/business-strategy"
+  to = "/#latest"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/insights/business-strategy.html"
+  to = "/#latest"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/insights/scenario-planning"
+  to = "/#latest"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/insights/scenario-planning.html"
+  to = "/#latest"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/insights/transformation-questions"
+  to = "/#latest"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/insights/transformation-questions.html"
+  to = "/#latest"
+  status = 302
+  force = true
